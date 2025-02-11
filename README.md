@@ -150,6 +150,63 @@ The queries are executed in the Python environment using the SQLite library, and
 
 This project demonstrates the use of SQL for data analysis by extracting insights from large datasets. By leveraging Pandas for data manipulation and SQLite for database management, the project provides an easy-to-use solution for analyzing complex data like crime, education, and census information. The queries cover a broad spectrum of analysis, from community economics to crime trends.
 
----
+# 4. House Sales in King County
 
-This README should provide a detailed understanding of the project and guide users through setup and execution.
+# Real Estate Housing Price Prediction
+
+# House Sales in King County, USA
+
+## Overview
+This project analyzes house sales data in King County, USA, using a Jupyter Notebook. The dataset includes various features related to house pricing, such as square footage, number of bedrooms and bathrooms, location, and other attributes. The goal is to explore patterns, perform data preprocessing, and build predictive models for house prices.
+
+## Project Structure
+The project consists of the following key components:
+
+- **`House_Sales_in_King_Count_USA.ipynb`**: A Jupyter Notebook that contains the entire data analysis workflow, including:
+  - Data loading and preprocessing
+  - Exploratory data analysis (EDA)
+  - Feature engineering
+  - Model building and evaluation
+  - Insights and conclusions
+
+- **Dataset**: The dataset used in this analysis consists of house sales records from King County, including Seattle. It contains information such as:
+  - Sale price
+  - Number of bedrooms and bathrooms
+  - Square footage of living space and lot
+  - Condition and grade of the house
+  - Geographic location details (longitude and latitude)
+  - Year built and year of renovation
+
+## Methodology
+The project follows a structured approach:
+
+1. **Data Loading & Cleaning**
+   - Importing the dataset
+   - Handling missing values
+   - Converting data types where necessary
+
+2. **Exploratory Data Analysis (EDA)**
+   - Statistical summaries
+   - Visualizations (e.g., histograms, scatter plots, correlation heatmaps)
+   - Identifying trends and patterns in house prices
+
+3. **Feature Engineering**
+   - Creating new features
+   - Transforming existing features for better model performance
+
+4. **Model Building & Evaluation**
+   - Splitting data into training and testing sets
+   - Training regression models (e.g., Linear Regression, Random Forest)
+   - Evaluating model performance using RMSE, R², and other metrics
+
+## Key Findings
+- The price of a house is significantly influenced by factors such as square footage, location, and house condition.
+- Waterfront properties tend to have a higher average price.
+- Renovated houses and newer constructions generally sell for more.
+
+
+
+
+
+
+
